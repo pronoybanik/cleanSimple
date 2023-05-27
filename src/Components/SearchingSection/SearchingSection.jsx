@@ -18,7 +18,7 @@ const SearchingSection = () => {
 
             <div>
                 <label
-                    for="UserEmail"
+                    
                     className="relative w-[700px] text-2xl bg-slate-200 rounded-full block overflow-hidden  border   py-3 shadow-sm  focus-within:ring-1 "
                 >
                     <input
@@ -29,9 +29,9 @@ const SearchingSection = () => {
                     />
 
                     <span
-                        className="absolute start-3 top-3 -translate-y-1/2  text-gray-600 font-serif font-semibold ml-4  transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs"
+                        className="absolute start-3 top-3 -translate-y-1/2  text-gray-600 font-serif font-semibold   transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs"
                     >
-                        <div className="flex text-xl ml-20">
+                        <div className="flex text-xl ml-16">
                             <FaSearch className="mt-1"></FaSearch>
 
                             <p className="ml-6">

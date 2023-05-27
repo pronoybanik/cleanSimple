@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyCDUcpKZSd8Z95KnhqejCUsmSNHV8oH_tg",
   authDomain: "facebook-pass-a8245.firebaseapp.com",
@@ -9,6 +10,6 @@ const firebaseConfig = {
   appId: "1:278599640479:web:205aadc3afef50584d09aa"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 export default app;

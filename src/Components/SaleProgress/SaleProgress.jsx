@@ -1,19 +1,24 @@
+import image1 from '../../assets/site_image/icons8-active-directory-50.png'
+import image2 from '../../assets/site_image/icons8-expired-48.png'
+import image3 from '../../assets/site_image/dribble.png'
+import image4 from '../../assets/site_image/icons8-pokeball-50.png'
+
 
 const SaleProgress = () => {
     return (
         <section className="w-[400px]  ">
             <div className="flex gap-4">
                 <p className='bg-[#f3d6b2] w-5 h-8 rounded-md'></p>
-                <p className='text-2xl font-bold'>Listing overview</p>
+                <p className='text-2xl font-bold'>sale overview</p>
             </div>
             <br />
             {/* cards... */}
             <section>
                 {/* 1 st card */}
                 <div className="relative   bg-[#F0F8FF] flex items-start justify-between rounded-xl border border-gray-100  shadow-xl sm:p-6 lg:p-8">
-                    <div className=" text-gray-500 flex gap-8">
+                    <div className=" text-gray-500 flex gap-8 ">
 
-                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src='' alt="" />
+                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src={image1} alt="" />
 
                         <div>
                             <h1 className='text-xl font-semibold text-black'>Clothing & shoes</h1>
@@ -29,8 +34,7 @@ const SaleProgress = () => {
                                 >
                                     <span
                                         className="block h-3 border-2 rounded-full bg-[#99c2e5]"
-                                    // style={${``}}
-                                    // style={{ backgroundColor: `width: 75%` }}
+                                        style={{ width: 100 }}
                                     ></span>
                                 </span>
                             </div>
@@ -38,7 +42,7 @@ const SaleProgress = () => {
                     </div>
 
                     <div
-                        className="inline-flex gap-2 self-end rounded mb-7 bg-[#c2dcf3] p-1 text-green-600"
+                        className="inline-flex gap-2 self-end rounded mb-2 mt-4 bg-[#c2dcf3] p-1 text-green-600"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -60,13 +64,13 @@ const SaleProgress = () => {
                 </div>
                 {/* 2 nd card*/}
                 <div className="relative mt-4  bg-[#f7f0c2] flex items-start justify-between rounded-xl border border-gray-100  shadow-xl sm:p-6 lg:p-8">
-                    <div className=" text-gray-500 flex gap-8">
+                    <div className=" text-gray-500 flex gap-8 h-2">
 
-                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src='' alt="" />
+                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src={image2} alt="" />
 
                         <div>
-                            <h1 className='text-xl font-semibold text-black'>Clothing & shoes</h1>
-                            <h2 className='text-sm  text-black'>Men & women</h2>
+                            <h1 className='text-xl font-semibold text-black'>Jewelry items</h1>
+                            <h2 className='text-sm  text-black'>women</h2>
 
                             <div>
 
@@ -78,8 +82,7 @@ const SaleProgress = () => {
                                 >
                                     <span
                                         className="block h-3 border-2 rounded-full bg-[#ddc41f]"
-                                    // style={${``}}
-                                    // style={{ backgroundColor: `width: 75%` }}
+                                        style={{ width: 60 }}
                                     ></span>
                                 </span>
                             </div>
@@ -87,7 +90,7 @@ const SaleProgress = () => {
                     </div>
 
                     <div
-                        className="inline-flex gap-2 self-end rounded mb-7 bg-[#f8ea8d] p-1 text-green-600"
+                        className="inline-flex  gap-2 self-end rounded mb-2 mt-4 bg-[#f8ea8d] p-1 text-green-600"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -109,12 +112,12 @@ const SaleProgress = () => {
                 </div>
                 {/* 3rd card */}
                 <div className="relative mt-4  bg-[#E6E6FA] flex items-start justify-between rounded-xl border border-gray-100  shadow-xl sm:p-6 lg:p-8">
-                    <div className=" text-gray-500 flex gap-8">
+                    <div className=" text-gray-500 h-2 flex gap-8">
 
-                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src='' alt="" />
+                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src={image3} alt="" />
 
                         <div>
-                            <h1 className='text-xl font-semibold text-black'>Clothing & shoes</h1>
+                            <h1 className='text-xl font-semibold text-black'>Home & Living</h1>
                             <h2 className='text-sm  text-black'>Men & women</h2>
 
                             <div>
@@ -127,8 +130,7 @@ const SaleProgress = () => {
                                 >
                                     <span
                                         className="block h-3 border-2 rounded-full bg-[#8989f8]"
-                                    // style={${``}}
-                                    // style={{ backgroundColor: `width: 75%` }}
+                                        style={{ width: 150 }}
                                     ></span>
                                 </span>
                             </div>
@@ -136,7 +138,7 @@ const SaleProgress = () => {
                     </div>
 
                     <div
-                        className="inline-flex gap-2 self-end rounded mb-7 bg-[#9595f7] p-1 text-green-600"
+                        className="inline-flex gap-2 self-end rounded mb-2 mt-4 bg-[#9595f7] p-1 text-green-600"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -158,12 +160,12 @@ const SaleProgress = () => {
                 </div>
                 {/* 4 th card */}
                 <div className="relative mt-4  bg-[#f3d6b2] flex items-start justify-between rounded-xl border border-gray-100  shadow-xl sm:p-6 lg:p-8">
-                    <div className=" text-gray-500 flex gap-8">
+                    <div className=" text-gray-500 h-2 flex gap-8">
 
-                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src='' alt="" />
+                        <img className='bg-[#99c2e5] w-12 h-12 p-2 rounded-3xl  ' src={image4} alt="" />
 
                         <div>
-                            <h1 className='text-xl font-semibold text-black'>Clothing & shoes</h1>
+                            <h1 className='text-xl font-semibold text-black'>Electronic Items</h1>
                             <h2 className='text-sm  text-black'>Men & women</h2>
 
                             <div>
@@ -176,8 +178,7 @@ const SaleProgress = () => {
                                 >
                                     <span
                                         className="block h-3 border-2 rounded-full bg-[#eba34c]"
-                                    // style={${``}}
-                                    // style={{ backgroundColor: `width: 75%` }}
+                                        style={{ width: 110 }}
                                     ></span>
                                 </span>
                             </div>
@@ -185,7 +186,7 @@ const SaleProgress = () => {
                     </div>
 
                     <div
-                        className="inline-flex gap-2 self-end rounded mb-7 bg-[#eba34c] p-1 text-green-600"
+                        className="inline-flex gap-2 self-end rounded mb-2 mt-4 bg-[#eba34c] p-1 text-green-600"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
